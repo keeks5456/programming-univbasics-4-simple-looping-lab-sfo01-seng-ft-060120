@@ -26,7 +26,7 @@ def return_string_array(array)
   # binding.pry
 counter = 0 
 while counter < array.length do 
-  puts "#{array}" + " "
+  puts array[counter].to_s
   counter += 1 
 end
 return array
