@@ -23,11 +23,11 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  # binding.pry
+  binding.pry
   counter = 0 
   while counter < array.length do 
     puts array[counter]
     counter += 1
   end
-  return array + ""
+  return array
 end 
