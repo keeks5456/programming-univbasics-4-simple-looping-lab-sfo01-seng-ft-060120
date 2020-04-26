@@ -29,5 +29,4 @@ while counter < array.length do
   puts array[counter].to_s
   counter += 1 
 end
-return array
 end 
