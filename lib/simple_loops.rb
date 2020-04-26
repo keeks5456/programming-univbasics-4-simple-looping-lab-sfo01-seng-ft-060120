@@ -24,6 +24,5 @@ end
 
 def return_string_array(array)
   # binding.pry
-  array.map { |element| array[element].to_s}
-  return array
+ array.split
 end 
