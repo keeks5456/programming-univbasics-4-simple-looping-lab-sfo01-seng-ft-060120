@@ -8,7 +8,8 @@ puts message
 puts message
 end 
 
-binding.pry
+
 def loop_message_n_times(message, number) 
+  binding.pry
 number.times{puts message}
 end
