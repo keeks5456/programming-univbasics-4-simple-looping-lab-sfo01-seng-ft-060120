@@ -24,11 +24,7 @@ end
 
 def return_string_array(array)
   # binding.pry
-  counter = 0 
-  while counter < array.length do 
-    puts array[counter]
-    counter += 1
-  end
-  return array
+  array.map do |string|
+    
   
 end 
