@@ -24,5 +24,5 @@ end
 
 def return_string_array(array)
   # binding.pry
- array.split
+ array.split()
 end 
