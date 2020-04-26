@@ -15,5 +15,9 @@ puts number.times{puts message}
 end
 
 def out_array(array)
-  
+  counter = 0 
+  while array[counter] do 
+    puts array[counter]
+    counter +=
+  end
 end
