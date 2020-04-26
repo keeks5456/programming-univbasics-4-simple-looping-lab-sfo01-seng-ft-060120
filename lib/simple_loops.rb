@@ -25,8 +25,10 @@ end
 def return_string_array(array)
   # binding.pry
 counter = 0 
+newArray = []
 while counter < array.length do 
-  puts array[counter].to_s
+newArray.push(array[count].to_s)
   counter += 1 
 end
+return newArray
 end 
