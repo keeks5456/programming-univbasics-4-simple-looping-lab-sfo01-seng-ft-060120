@@ -29,5 +29,5 @@ def return_string_array(array)
     puts array[counter]
     counter += 1
   end
-  return array.join(" ")
+  return array + ""
 end 
