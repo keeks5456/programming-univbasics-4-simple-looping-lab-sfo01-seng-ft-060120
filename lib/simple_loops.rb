@@ -23,7 +23,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  binding.pry
-  array.map { |element| element.to_s}
+  # binding.pry
+  array.map { |element| array[element].to_s}
   return array
 end 
