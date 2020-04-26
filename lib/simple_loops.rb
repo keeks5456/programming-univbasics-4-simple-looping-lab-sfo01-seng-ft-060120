@@ -7,5 +7,4 @@ puts message
 end 
 
 def loop_message_n_times(string, integer) 
- filter_parameter_logging
 end
