@@ -1,3 +1,5 @@
 def loop_message_five_times(message)
-counter = 
+puts message
+puts message
 end 
+
