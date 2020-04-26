@@ -11,5 +11,5 @@ end
 
 def loop_message_n_times(message, number) 
   binding.pry
-number.times{puts message}
+puts number.times{puts message}
 end
